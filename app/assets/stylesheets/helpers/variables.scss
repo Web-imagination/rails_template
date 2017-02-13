@@ -1,0 +1,21 @@
+//Colors
+
+$white: #fff;
+
+// Fonts
+
+$font-default: 'Arial', sans-serif;
+$font-main: 'Open Sans', $font-default;
+$font-special: 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
+
+$text-size: 1.8rem;
+$text-line-height: 1.35;
+
+
+// Grid points
+
+$breakpoints: (
+    'small': (min-width: 767px),
+    'medium': (min-width: 992px),
+    'large': (min-width: 1200px)
+);

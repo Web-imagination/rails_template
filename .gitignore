@@ -7,11 +7,32 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore installed dependencies
+/vendor/bundle
+/vendor/assets
+/node_modules
+
+# Ignore config files
+/config/database.yml
+/config/secrets.yml
+
+# Ignore assets
+/public/assets
+
+# Ignore Webpack bundle
+
+/app/assets/webpack
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+.log
+npm-debug.log
 
-# Ignore Byebug command history file.
-.byebug_history
+# Ignore dbs data
+/db/*.sql
+
+# Ignore vim tmp files
+*.swp

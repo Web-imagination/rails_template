@@ -1,24 +1,9 @@
-# README
+# Start
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Backend
+`bin/rails server` -- starts server in development environment. Open either [lvh.me:3000](http://lvh.me:3000) or [localhost:3000](http://localhost:3000) in browser
 
-Things you may want to cover:
+## Frontend
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`npm start` -- for start building with webpack
+`npm run lint` -- for check codestyle by linter (scss/js)
